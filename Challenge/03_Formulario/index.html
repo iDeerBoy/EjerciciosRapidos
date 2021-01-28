@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <form>
+        <p>Formulario de acceso:</p>
+        <input
+          class="acceso" type="text" placeholder="Ingrega tu username:" required maxlength="30"
+        />
+        <input
+          class="acceso" type="password" placeholder="Ingrega tu password:" required maxlength="30"
+        />
+        <input
+          class="acceso" type="email" placeholder="Ingrega tu email" required maxlength="30"
+        />
+  
+        <p class="misDatos">Deseo recordar mis datos de login:</p>
+        <p class="datostxt">si</p>
+        <input class="datos" type="checkbox" />
+        <p class="datostxt">no</p>
+        <input class="datos" type="checkbox" />
+  
+        <p>Ingresa tu fecha de nacimiento:</p>
+        <input class="fecha" type="date" />
+  
+        <p>Escoge tu color favorito</p>
+        <input class="color" type="color" />
+  
+        <br />
+  
+        <p>El clima en mi ciudad esta:</p>
+  
+        <span>caliente</span>
+        <input class="range" type="range" />
+        <span>frio</span>
+        <br />
+        <br />
+        <span class="plato">Mi plato favorito es:</span>
+        <select class="select">
+          <option>hamburguesa</option>
+          <option>pizza</option>
+          <option>pasta</option>
+          <option>ensalada</option>
+          <option>todos los anteriores</option>
+        </select>
+  
+        <input class="enviar" type="submit" value="ENVIAR" />
+      </form>
+</body>
+</html>

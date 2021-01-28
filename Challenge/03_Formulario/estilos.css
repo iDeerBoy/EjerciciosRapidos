@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f7babe;
+  }
+  
+  form {
+    width: 500px;
+    margin: 1% 37.5% 0 37.5%;
+    background-color: #fbfbfb;
+    text-align: center;
+    padding: 30px 0 15px 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  
+  p {
+    font-size: 25px;
+    color: #6f89a3;
+    margin: 20px 0;
+  }
+  
+  .acceso {
+    display: block;
+    width: 70%;
+    margin: 10px 15%;
+    padding: 15px 0;
+    border: solid 1px #b4c6e0;
+    border-radius: 5px;
+    color: #777777;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .acceso:hover {
+    outline: none;
+    border: solid 1px #f7babe;
+  }
+  
+  .acceso:focus {
+    outline: none;
+    border: solid 1px #777777;
+  }
+  
+  .misDatos {
+    font-size: 18px;
+    color: #777777;
+    margin: 20px 0 10px 0;
+  }
+  
+  .datostxt {
+    display: inline;
+    font-size: 20px;
+    color: #777777;
+    margin-left: 20px;
+  }
+  
+  .fecha {
+    width: 50%;
+    margin: 10px 25%;
+    padding: 15px 0;
+    border: solid 1px #b4c6e0;
+    border-radius: 5px;
+    color: #777777;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .color {
+    width: 50%;
+    height: 55px;
+    margin: 10px 25%;
+    padding: 15px 15px;
+    border: solid 1px #b4c6e0;
+    border-radius: 5px;
+  }
+  
+  span {
+    font-size: 20px;
+    color: #777777;
+    margin: 0 10px;
+  }
+  
+  /**.range {
+    border: solid 1px #b4c6e0;
+    border-radius: 5px;
+    background-color: #6f89a3;
+  }**/
+  
+  .plato {
+    color: #6f89a3;
+  }
+  
+  .select {
+    border: solid 1px #b4c6e0;
+    border-radius: 5px;
+    color: #777777;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .enviar {
+    display: block;
+    width: 80%;
+    margin: 20px 10%;
+    padding: 15px 0;
+    border: solid 1px #b4c6e0;
+    border-radius: 5px;
+    color: white;
+    background-color: #b4c6e0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .enviar:hover {
+    color: #b4c6e0;
+    background-color: #fbfbfb;
+    border: solid 1px #b4c6e0;
+  }

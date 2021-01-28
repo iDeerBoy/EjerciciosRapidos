@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #262626;
+}
+
+body{
+    background-color: lavender;
+}
+
+.interface{
+    width: 375px;
+    margin: 2% auto;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-phone{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hour {
+    width: 54px;
+    margin: 14.5px 21px 0;
+}
+
+.hour h2{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    padding-right: 14.5px;
+}
+
+.icons-phone{
+    margin: 14.5px 5px 0;
+}
+
+.icons-phone i{
+    font-size: 15px;
+}
+
+.user{
+    width: 100%;
+    padding: 21px 16px 0;
+    text-align: center;
+}
+
+.user h1{
+    font-size: 20px;
+}
+
+.info-user{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-user{
+    width: 77px;
+    height: 77px;
+    background-image: url(./img/01.PNG);
+    background-size: cover;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-right: 46px;
+    position: relative;
+}
+
+.plus{
+    width: 20px;
+    height: 20px;
+    background-color: #309CFF;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus i{
+    font-size: 11px;
+    color: white;
+}
+
+.stats{
+    margin: 34px 15px 0 0;
+}
+.stats h3{    
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.stats p{
+    font-size: 12px;
+}
+
+.ur-name{
+    width: 100%;
+    padding: 25px 16px 30px;
+}
+
+.ur-name h4, p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.edit{
+    width: 100%;
+    padding: 26px 16px;
+}
+
+.edit a{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 140px;
+    background-color: #fafafa;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    outline: none;
+}
+
+.edit a:hover{
+    background-color: #bababa;
+    color: white;
+}
+
+.icons1{
+    border-top: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-profile{
+    width: 50%;
+    text-align: center;
+    padding: 11px 0;
+    border-bottom: 1px solid white;
+}
+
+.icons-profile i{
+    font-size: 25px;
+    color: #dbdbdb;
+}
+
+.icons-profile:hover{
+    border-bottom: 1px solid #000000;
+    color: #000000;
+}
+
+.icons-profile i:hover{
+    color: #000000;
+}
+
+.icons-profile:active{
+    border-bottom: 1px solid #000000;
+}
+
+.icons-profile i:active{
+    color: #000000;
+}
+
+.photo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture{
+    width: 123px;
+    height: 123px;
+    margin: 0 1px 2px;
+}
+
+.picture img{
+    width: 100%;
+}
+
+.icons2{
+    width: 100%;
+    padding: 18px 0 47px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.icons2 i{
+    font-size: 25px;
+    color: #dbdbdb;
+}
+
+.icons2 i:hover{
+    color: #000000;
+    cursor: pointer;    
+}
+
+.like{
+    position: absolute;
+    top:-30px;
+    left: 228px;
+    width: 76px;
+    height: 36px;
+    background: #FE5723;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.like i{
+    font-size: 17px;
+    color: white;
+}
+
+.like i:hover{
+    font-size: 17px;
+    color: white;
+}
+
+.like h4{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.notification{
+    width: 6px;
+    height: 6px;
+    background: #FE5723;
+    border-radius: 100%;
+    position: absolute;
+    top: 50px;
+    left: 261.5px;
+}
